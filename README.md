@@ -16,7 +16,7 @@ npm run watch # Rerun the build when the code changes.
 > You can open the GraphQL Server in any browser, except Safari because it does not allow to introspect the endpoint in Apollo Studio.
 
 # Sample GQLs
-```json
+```
 query Playoffs {
   basketballPlayoffs {
     team
@@ -25,8 +25,9 @@ query Playoffs {
     totalScore
     won
   }
+}
 ```
-```json
+```
 query Rosters {
   nbaRosters {
     nbaPlayer {
