@@ -1,0 +1,30 @@
+{
+  "name": "graphql-template",
+  "version": "1.0.0",
+  "description": "Build your own GraphQL setup powered by GraphQL All-Star team.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GraphQL All-Star",
+    "GraphQL",
+    "Apollo v2",
+    "TypeScript",
+    "Server",
+    "Express"
+  ],
+  "author": "GraphQL All-Star <team@graphqlallstar.com> (https://graphqlallstar.com)",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
